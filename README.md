@@ -7,6 +7,7 @@ I started mining Monero on an SFF PC I had around, but I have now switched to a 
 # Raspberry pi setup.
 
 I have mounted 4 RasPi's in an enclosure 2x Raspi3B, 1x RasPi5B, 1x RasPi4B turning them into a small dedicated infrastructure cluster for my home network. On the RasPi4B I am running Pihole which handles DNS for the netire LAN, blocks ads and tracking domains, while also giving me full visibility over outbound DNS queries. On the RasPi3B i'm running a NTP server using Chrony which syncs with upstream time sources and then distributes time to the rest of my LAN.
+![RasPi_Enclosure](https://github.com/user-attachments/assets/7959eba9-9c79-4cf2-93a7-d571da64e7c8)
 
 # Proxmox Setup
 
