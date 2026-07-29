@@ -1,5 +1,5 @@
 # HomeLab Setup
-My homelab started from a genuine interest in networking after learning many new networking skills from University, and an interest to build a home network that is controlled and secure. It’s backed by a UPS for power redundancy, with two gigabit smart switches. A shuttle PC wit 2 ethernet ports sits between the modem and router to monitor WAN traffic. My main compute runs on a Proxmox host with a NAS for storage, supported by a Raspberry Pi cluster for lightweight services and experimentation. I also run a Monero miner on the side for fun and the entire homelab has a dedicated sceen showing live system statistics.
+My homelab started from a genuine interest in networking after learning many new networking skills from University, and an interest to build a home network that is controlled and secure. It’s backed by a UPS for power redundancy, with two gigabit smart switches. A shuttle PC with 2 ethernet ports sits between the modem and router to monitor WAN traffic. My main compute runs on a Proxmox host with a NAS for storage, supported by a Raspberry Pi cluster for lightweight services and experimentation. I also run a Monero miner on the side for fun and the entire homelab has a dedicated sceen showing live system statistics.
 ![HomeLab](https://github.com/user-attachments/assets/107f5263-eaef-4e66-a2db-9bffd5cbfffc)
 
 
