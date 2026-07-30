@@ -18,3 +18,9 @@ I have mounted 4 RasPi's in an enclosure 2x Raspi3B, 1x RasPi5B, 1x RasPi4B turn
 I currently have my Proxmox environment set up on my HP EliteDesk 800 G3 SFF, running my NAS directly on the Proxmox host via Samba. This shares storage from a connected 2-bay drive enclosure, with the disks mounted on the host and exported over SMB to the rest of my network. Keeping the NAS on the host avoids VM overhead and keeps performance simple and reliable, while the same system also serves as a small homelab platform for experimentation.
 ![Proxmox_NAS](https://github.com/user-attachments/assets/55ec513b-3197-481f-9cef-42414edbccc3)
 
+## Transparent WAN Monitoring Bridge
+By utilising a Shuttle SFF PC with two ethernet ports I was able to turn it into an effective transparent Layer 2 network bridge for passive WAN traffic monitoring. It's positioned inline between an NBN modem and my router, the system forwards ethernet frames without performing routing, NAT, or any firewalling, allowing all internet traffic to pass through unmodified while remaining effectively invisible to the network. I have traffic mirrored internally to a tool called Suricata for intrusion detection and packet analysis, it gives me peace of mind by providing me with complete visibility into inbound and outbound WAN traffic before it reaches the router.
+
+<img width="797" height="330" alt="IDS" src="https://github.com/user-attachments/assets/e42e7435-2730-4582-8532-c72b5cab5757" />
+
+
